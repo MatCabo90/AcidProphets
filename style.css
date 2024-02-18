@@ -799,7 +799,7 @@ img {
   .single-event-area:hover, .single-event-area:focus {
     box-shadow: 0 5px 80px 0 rgba(0, 0, 0, 0.2); }
     .single-event-area:hover .event-text, .single-event-area:focus .event-text {
-    background-color: #FDF2FF;
+    background-color: #FFFFFF;
 }
       .single-event-area:hover .event-text h4,
       .single-event-area:hover .event-text .event-meta-data a, .single-event-area:focus .event-text h4,
@@ -2524,13 +2524,13 @@ h3 {
 @keyframes font {
   0% {
     font-weight: 100;
-    color: #e0287d;
+    color: #5c1687;
     filter: blur(3px);
   }
 
   20% {
     font-weight: 500;
-    color: #fff;
+    color: #800089;
     filter: blur(0);
   }
 
@@ -2542,13 +2542,13 @@ h3 {
 
   60% {
     font-weight: 700;
-    color: #fff;
+    color: #00ff1c;
     filter: blur(0);
   }
 
   90% {
     font-weight: 500;
-    color: #e0287d;
+    color: #b5bc1b;
     filter: blur(6px);
   }
 }
@@ -2572,3 +2572,5 @@ h3 {
   padding: 200px 0;
   text-align: center;
 }
+
+
