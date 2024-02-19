@@ -13,7 +13,11 @@
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+	
+  
+}
+
 
 body {
   font-family: "Archivo Narrow", sans-serif;
