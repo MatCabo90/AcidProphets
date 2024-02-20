@@ -53,6 +53,7 @@ html{
   background-size: 800% 800%;
   animation: gradient-animation 10s ease infinite;
   text-align: center;
+  
 }
 
 @keyframes gradient-animation {
@@ -617,13 +618,13 @@ img {
   overflow: hidden; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-hero-slide {
-      height: 720px; } }
+      height: 740px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-hero-slide {
-      height: 720px; } }
+      height: 740px; } }
   @media only screen and (max-width: 767px) {
     .single-hero-slide {
-      height: 720px; } }
+      height: 740px; } }
   .single-hero-slide::after {
     position: absolute;
     width: 100%;
@@ -2999,6 +3000,28 @@ h3 {
 
 
 
-
-
-
+.h4{
+background-image: linear-gradient(to right, #FF009B, #ffffff, #D6F3E2, #5AF113);
+	background-clip: text;
+	animation: gradient-animation 10s ease infinite;
+	-webkit-text-stroke-color: transparent;
+	 -webkit-text-stroke-width: calc(1em / 16);
+	 -webkit-background-clip: text;
+	font-weight: 700;
+	
+	font-size: 24px;
+	padding: calc(calc (1em / 16) / 2);
+	letter-spacing: calc(1em / 8);
+	
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
