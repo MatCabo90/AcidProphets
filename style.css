@@ -2882,23 +2882,23 @@ h3 {
    }
 
    41% {
-      transform: skewX(5deg);
+      transform: skewX(115deg);
    }
 
    42% {
-      transform: skewX(-5deg);
+      transform: skewX(-15deg);
    }
 
    59% {
-      transform: skewX(-5deg) skewY(0deg);
+      transform: skewX(-20deg) skewY(-3deg);
    }
 
    60% {
-      transform: skewX(-5deg) skewY(0deg);
+      transform: skewX(-335deg) skewY(3deg);
    }
 
    63% {
-      transform: skewX(5deg) skewY(0deg);
+      transform: skewX(30deg) skewY(0deg);
    }
 
    70% {
@@ -2906,7 +2906,7 @@ h3 {
    }
 
    71% {
-      transform: skewX(5deg) skewY(0deg);
+      transform: skewX(-330deg) skewY(-3deg);
    }
 }
 
@@ -3001,7 +3001,7 @@ h3 {
 
 
 .h4{
-background-image: linear-gradient(to right, #FF009B, #ffffff, #D6F3E2, #5AF113);
+background-image: linear-gradient(to right, #B019AB, #BA22C5, #ffffff, #44FF00);
 	background-clip: text;
 	animation: gradient-animation 10s ease infinite;
 	-webkit-text-stroke-color: transparent;
@@ -3025,3 +3025,6 @@ background-image: linear-gradient(to right, #FF009B, #ffffff, #D6F3E2, #5AF113);
     background-position: 0% 50%;
   }
 }
+
+
+
