@@ -470,11 +470,11 @@ img {
 }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
-            background-color: #ad59bc47;
+            background-color: #e6b7f0;
             border-bottom-color: rgba(255, 255, 255, 0.1); } }
         @media only screen and (max-width: 767px) {
           .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
-            background-color: #ad59bc47;
+            background-color: #e6b7f0;
             border-bottom-color: rgba(255, 255, 255, 0.1); } }
       .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.megamenu-item > a::after,
       .header-area .oneMusic-main-menu .classy-navbar .classynav ul li.has-down > a::after {
